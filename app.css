@@ -1,0 +1,1070 @@
+body {
+    font-family: poppins, sans-serif;
+    color: #1A1B38;
+}
+
+.main {
+    width: 100%;
+}
+
+.navbar-brand img {
+    height: 130.08px;
+    margin: 0 2rem;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-grow: 0.5;
+    flex-shrink: 1;
+    justify-content: space-around;
+}
+
+.navbar-nav .nav-item {
+    font-size: 30px;
+}
+
+.nav-item a {
+    color: #1A1B32;
+
+}
+
+nav .btn {
+    font-size: 30px;
+    border-radius: 12px;
+}
+
+.registration {
+    margin-left: 10%;
+
+}
+
+.registration .btn {
+    margin-bottom: 0;
+    font-size: 30px;
+    border-radius: 12px;
+}
+
+.startNow {
+    background-color: #C3FEA8;
+    border-color: #1A1B32;
+    border-width: 2px;
+    color: #1A1B32;
+    padding: 0.5rem 2rem;
+}
+
+.logIn {
+    background-color: #1A1B32;
+    color: white;
+    padding: 0.3rem 3rem;
+}
+
+nav .dropdown {
+    font-size: 2.5rem;
+    margin: 0 2rem;
+    font-weight: 300;
+}
+
+main>.buttons {
+    background-color: #F2F0F0;
+    border-top: 4px solid #1A1B32;
+}
+
+main .sell {
+    background-color: #F2F0F0;
+    /* max-height: 1091px; */
+}
+
+.sell header {
+    font-size: 69px;
+    font-weight: 700;
+}
+
+.sell .mainContent img {
+    height: 5.5rem;
+}
+
+.sell .mainContent {
+    margin: 153px 0 5rem 6rem;
+    width: 1005px;
+}
+
+.sell h1 span {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 0.7rem;
+    height: 0.7rem;
+}
+
+.sell span:nth-of-type(1) {
+    background-color: #d5cfe4;
+}
+
+.sell span:nth-of-type(2) {
+    background-color: #C3FEA8;
+}
+
+.sell span:nth-of-type(3) {
+    background-color: #FFB6FF;
+}
+
+.sell .mainContent h1 {
+    color: #1A1B32;
+    font-size: 69px;
+    font-weight: 700;
+}
+
+.sell .mainContent .text {
+    font-size: 40px;
+    font-weight: 300;
+    margin: 3rem 0 6rem 0;
+}
+
+.sell .mainContent .formShadow {
+    max-width: 928px;
+    min-width: 600px;
+    height: 91px;
+    background-color: #1A1B32;
+    position: relative;
+    margin: 4.5rem 0 4rem 0.2rem;
+
+}
+
+.sell .mainContent form {
+    position: absolute;
+    left: -0.7rem;
+    width: 98%;
+    bottom: 1.2rem;
+}
+
+.sell input {
+    border-style: none;
+    height: 108px;
+    border-radius: 1.5rem;
+    width: 100%;
+    font-size: 40px;
+    box-shadow: 0 3px 6px #00000029;
+}
+
+.sell input::placeholder {
+    color: #1A1B32;
+    padding-left: 1.5rem;
+}
+
+.sell .mainContent form .btn {
+    font-size: 2rem;
+    background-color: #d5cfe4;
+    position: absolute;
+    top: 0;
+    right: -1.2rem;
+    padding: 1.3rem 3.3rem;
+    border: 4px solid #1A1B32;
+    border-radius: 1.5rem;
+    height: 108px;
+}
+
+.mainContent p {
+    margin-top: 3.5rem;
+    font-size: 35px;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+.sell>figure {
+    margin: 0;
+    padding: 0;
+
+}
+
+.sell>figure img {
+    margin-top: 6rem;
+    max-height: 1000px;
+    max-width: 700px;
+}
+
+.step1 header {
+    margin: 13rem 0 268px 163px;
+    font-size: 4.9rem;
+    font-weight: 900;
+    color: #1A1B32;
+}
+
+header img {
+    height: 10rem;
+}
+
+.step1 h2 {
+    color: #D6CDF0;
+    background-color: #1A1B36;
+    font-size: 60px;
+    width: 209.28px;
+    text-align: center;
+    line-height: 96.05px;
+    margin-bottom: 2.5rem;
+}
+
+.step1 a {
+    font-size: 45px;
+    color: #1A1B34;
+    background-color: #F2F0F0;
+    line-height: 87px;
+    text-align: center;
+    box-shadow: 0px 3px 6px #D8CDF3;
+    border-radius: 9px;
+    border: 1px solid #D8CDF3;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+}
+
+.step1 p {
+    margin-top: 2rem;
+    font-size: 37px;
+    text-align: start;
+}
+
+
+.carousel-control button {
+    background-color: #D6CDF0;
+    width: 102px;
+    height: 99px;
+    border: 2px solid #1A1B38;
+    border-radius: 9px;
+    align-self: center;
+    opacity: 1;
+    position: absolute;
+    top: 36rem;
+    left: 20rem;
+}
+
+.carousel-control .carousel-control-next {
+    left: 28rem;
+}
+
+.carousel-item {
+    height: 1100px;
+    position: relative;
+}
+
+.carousel :nth-of-type(3) {
+    width: 85%;
+}
+
+.carousel {
+    margin-left: 4.7rem;
+}
+
+.steps {
+    width: 45%;
+}
+
+.carousel-item figure {
+    width: 50%;
+    min-width: 500px;
+}
+
+.whyChoose header {
+    font-size: 77px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 60px;
+}
+
+.whyChoose {
+    background-color: #F2F0F0;
+    align-items: center;
+    min-height: 1256px;
+}
+
+.whyChooseList p {
+    font-size: 40px;
+    min-height: 140px;
+    width: 80%;
+}
+
+
+
+.whyChooseList .numbered {
+    flex-direction: column;
+    margin-left: 243px;
+    margin-right: 86.4px;
+}
+
+.whyChooseList .numbered span {
+    font-size: 52px;
+    background-color: #E1CBFD;
+    border: 2px solid #99FF92;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 69px;
+    padding-left: 0.5rem;
+    padding-top: 0.3rem;
+}
+
+.customers {
+    background-color: #1A1B32;
+    height: 1492.42px;
+}
+
+.customers header {
+    font-size: 78px;
+    color: #FFFFFF;
+    padding-top: 170px;
+    margin-left: 370px;
+    font-weight: 900;
+}
+
+.customers span {
+    color: #FDBDFC;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.customers .title {
+    font-size: 33px;
+    font-weight: 900;
+    text-align: center;
+    padding: 0rem 4rem;
+}
+
+.customers .customersCards {
+    max-width: 543px;
+    border-radius: 40px;
+    background-color: #EFEAEA;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 269px;
+    padding: 2rem;
+}
+
+.cardsWrap {
+    justify-content: space-around;
+
+}
+
+.cardsWrap .middleCard p {
+    width: 79%;
+}
+
+.customers p {
+    width: 70%;
+    margin-left: 4.2rem;
+    line-height: 2.1rem;
+}
+
+.customers .next,
+.customers .previus {
+    background-color: #FFB2FF;
+    width: 102px;
+    height: 99px;
+    border: 2px solid #1A1B38;
+    border-radius: 9px;
+    padding: 1.3rem;
+    margin-right: 1.5rem;
+    margin-top: 5rem;
+}
+
+.customers .nextAndPrevius {
+    justify-content: center;
+}
+
+.trusted header {
+    font-size: 100px;
+    margin: 170px 0 110px 0;
+    font-weight: 300;
+    margin-left: 8rem;
+}
+
+.trusted span {
+    color: #D6CDF0;
+}
+
+
+.trusted .cardsWrap {
+    justify-content: space-around;
+    margin-left: 4.5rem;
+
+}
+
+.trusted .card {
+    width: 25%;
+    background-color: #F0EAEA;
+    border-style: none;
+    border-radius: 33px;
+    box-shadow: 0 3px 6px #00000029;
+    margin-bottom: 254px;
+    padding-top: 1rem;
+
+}
+
+.trusted .card-title {
+    font-size: 137px;
+    font-weight: 300;
+}
+
+.trusted .card-title span {
+    color: #C1ADEF;
+    font-size: 100px;
+    margin-bottom: 2rem;
+}
+
+.trusted .card-text {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.partners {
+    height: 1200px;
+    background-color: #1A1B32;
+    padding-left: 159px;
+}
+
+.partners header {
+    font-size: 100px;
+    font-weight: 300;
+    color: #C1ADEF;
+    padding-top: 188px;
+}
+
+.partnerImg {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 109px;
+    margin-right: 128px;
+}
+
+.dropdowns {
+    min-height: 1268px;
+}
+
+.dropdowns header {
+    font-size: 93px;
+    font-weight: 300;
+    margin: 135px 0 95px 400px;
+}
+
+.dropdowns .main {
+    background: url(files/curve.png);
+    height: 1126px;
+    flex-direction: column;
+    align-items: center;
+    background-position-y: 200px;
+    background-repeat: no-repeat;
+}
+
+.dropdowns .dropdown {
+    background-color: #EFEAEA;
+    width: 60%;
+    min-width: 339pt;
+    border: 3px solid #1A1B32;
+    border-radius: 21px;
+    line-height: 90px;
+    font-size: 29px;
+    font-weight: 900;
+    margin-bottom: 38px;
+    padding-left: 1rem;
+}
+
+.dropdown .btn {
+    font-size: 29px;
+    min-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 2.5rem;
+    text-align: start;
+}
+
+.readyToStart {
+    background-color: #F2F0F0;
+    min-height: 1268px;
+    padding-left: 166px;
+    padding-top: 250px;
+}
+
+.readyToStart header {
+    font-size: 90px;
+    font-weight: 300;
+    padding-bottom: 35px;
+    padding-top: 200px;
+}
+
+.readyToStart .content {
+    width: 45%;
+}
+
+.readyToStart header span {
+    color: #FFB2FF;
+    font-weight: 700;
+}
+
+.readyToStart p {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.readyToStart .move {
+    padding-top: 5rem;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.readyToStart .dashboard {
+    font-size: 75px;
+    color: white;
+    background-color: #B9ACE6;
+    border: 3px solid #1A1B3A;
+    border-radius: 28px;
+    margin-top: 15px;
+    font-weight: 900;
+    padding: 0.7rem 50px;
+}
+
+.readyToStart .startNow {
+    background-color: #C3FEA8;
+    font-size: 53px;
+    border: 3px solid #1A1B3A;
+    border-radius: 25px;
+    margin: 2.2rem 4rem;
+    padding: 19px 29px;
+    font-weight: 300;
+}
+
+.readyToStart .contact {
+    font-size: 53px;
+    font-weight: 200;
+    color: white;
+    background-color: #1A1B3A;
+    border: 4px solid #1A1B32;
+    border-radius: 25px;
+    margin: 0 3rem;
+    padding: 20px 17px;
+}
+
+.readyToStart .buttons {
+    flex-direction: column;
+    margin-left: 7rem;
+    margin-top: 3.3rem;
+}
+
+.footer {
+    height: 751px;
+    background-color: #BBAFE6;
+    border-top: 4px solid #1A1B32;
+    font-size: 39px;
+    font-weight: 900;
+    padding-top: 655px;
+    padding-left: 91px;
+}
+
+@media(max-width: 1500px) {
+
+    .registration .logIn {
+        order: 1;
+    }
+
+    .registration .startNow {
+        order: 2;
+    }
+
+    .sell .shop {
+        width: 80%;
+        min-width: 400px;
+        margin-top: 1rem;
+
+    }
+
+    .mainContent {
+        width: 30%;
+    }
+
+    .trusted .card-title {
+        font-size: 80px;
+    }
+
+    .trusted .card-text {
+        font-size: 28pt;
+    }
+
+
+    .sell .mainContent {
+        margin-top: 2rem;
+    }
+
+    .mobileVersOfAnys {
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .textMobile {
+        font-size: 25px;
+        font-weight: 400;
+        margin-top: 2rem;
+        margin-bottom: 8rem;
+    }
+
+    .sell .textMobile .pink {
+        background-color: #FFB2FF;
+    }
+
+    .textMobile span {
+        padding: 0 0.2rem;
+    }
+
+    .sell .textMobile .dark {
+        background-color: #1A1B32;
+        color: white;
+    }
+
+    .sell .mainContent .text,
+    .sell .formShadow,
+    .sell .mainContent p,
+    .mainContent h1,
+    .mainContent figure,
+    nav .btn,
+    .step1 #carouselExampleDark,
+    .sell figure .shop {
+        display: none;
+    }
+
+    .sell .formMobile {
+        position: relative;
+    }
+
+    .sell .formMobile input {
+        height: 54pt;
+        max-width: 334pt;
+        font-size: 18pt;
+    }
+
+    .sell .mainContent {
+        height: 600px;
+    }
+
+    .sell .formMobile .btn {
+        height: 54pt;
+        font-size: 18pt;
+        background-color: #d5cfe4;
+        position: absolute;
+        top: 0;
+        right: -1.2rem;
+        padding: 1rem 3.3rem;
+        border: 2px solid #1A1B32;
+        border-radius: 1.5rem;
+        left: 28%;
+        width: 240px;
+    }
+
+    .sell p {
+        font-size: 25px;
+        margin-top: 2rem;
+        padding-bottom: 6rem;
+    }
+
+    .step1 .stepsMobile {
+        width: 90%;
+        margin-left: 6rem;
+    }
+
+    .customers header {
+        margin-right: 5rem;
+    }
+
+    .customersCards:nth-of-type(3) {
+        display: none;
+    }
+
+
+}
+
+@media (min-width: 1500px) {
+
+    .mainContent {
+        margin-top: 2rem;
+
+    }
+
+    .whyChoose p span,
+    .readyToStart .content p span {
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .sell header,
+    .registration .btn,
+    .mobileVersOfAnys,
+    .sell .textMobile,
+    .sell .formMobile,
+    .stepsMobile,
+    .sell figure .shopMobile {
+        display: none;
+    }
+
+
+
+}
+
+@media (max-width: 1284px) {
+
+
+    .registration .btn {
+        font-size: 1.6rem;
+    }
+
+    .nav-item a {
+        margin-right: 0;
+    }
+
+    .step1 header {
+        font-size: 37pt;
+        font-weight: 400;
+        margin-left: 3rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 5.5rem;
+        margin-bottom: 5rem;
+    }
+
+    .step1 header img {
+        height: 86pt;
+        width: 191pt;
+        align-self: center;
+    }
+
+    .step1 h2 {
+        font-size: 29pt;
+        width: 103pt;
+        height: 44pt;
+        line-height: 44pt;
+        margin-top: 2.5rem;
+    }
+
+    .step1 a {
+        font-size: 21pt;
+        max-width: 302.12pt;
+        height: 46pt;
+        display: grid;
+        line-height: 46pt;
+        padding: 0;
+    }
+
+    .step1 p {
+        font-size: 18pt;
+    }
+
+    .step1 .stepsMobile {
+        width: 80%;
+        margin-bottom: 6.5rem;
+    }
+
+    .step1 #step2 {
+        display: flex;
+        color: #B2FF9E;
+        padding-left: 0.5rem;
+    }
+
+    .divOfStep2 {
+        justify-content: end;
+
+
+    }
+
+    .whyChoose header {
+        font-size: 37pt;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .whyChoose header img {
+        height: 86.49pt;
+        align-self: center;
+
+    }
+
+    .whyChoose p {
+        font-size: 18pt;
+        font-weight: 400;
+    }
+
+    .whyChoose .numbered span {
+        margin-left: 0;
+        font-size: 23pt;
+        width: 46pt;
+        height: 46pt;
+        border-style: none;
+        padding-top: 0.4rem;
+        padding-left: 0;
+        margin-right: 23pt;
+        margin-bottom: 6rem;
+    }
+
+    .whyChoose .numbered {
+        margin-left: 28pt;
+        margin-right: 0;
+    }
+
+    .customers header {
+        font-size: 30pt;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        text-align: center;
+        margin-right: 0;
+        padding-top: 68pt;
+    }
+
+    .customers span {
+        font-size: 28pt;
+        align-self: center;
+    }
+
+    .customers img {
+        width: 183.73pt;
+        align-self: center;
+        height: 81.47pt;
+    }
+
+    .customers .middleCard,
+    .readyToStart .buttons img {
+        display: none;
+    }
+
+    .customers .title {
+        font-size: 20pt;
+    }
+
+    .customers p {
+        font-size: 18pt;
+        line-height: 1.8rem;
+        margin-left: 3rem;
+        width: 80%;
+        margin-bottom: 0;
+    }
+
+    .customers .customersCards {
+        width: 313pt;
+        height: 398pt;
+        margin-top: 27pt;
+    }
+
+    .customers .cardsWrap svg {
+        width: 20pt;
+        height: 20pt;
+    }
+
+    .customers .cardsWrap svg path {
+        fill: #1A1B34;
+
+    }
+
+    .customers .nextAndPrevius a {
+        width: 59.22pt;
+        height: 60.56pt;
+        padding: 0.8rem;
+    }
+
+    .customers {
+        height: 840.48pt;
+    }
+
+    .trusted header {
+        font-size: 36pt;
+        margin-left: 100pt;
+        margin-top: 86pt;
+        margin-bottom: 61pt;
+    }
+
+    .trusted .cardsWrap {
+        flex-direction: column;
+        margin-left: 91pt;
+        margin-bottom: 131pt;
+    }
+
+    .trusted .card {
+        width: 207pt;
+        margin-bottom: 32pt;
+    }
+
+    .trusted .card .card-title {
+        font-size: 60pt;
+    }
+
+    .trusted .card-title span {
+        font-size: 55pt;
+    }
+
+    .partners {
+        height: 581.9pt;
+    }
+
+    .partners header {
+        font-size: 36pt;
+        padding-top: 120pt;
+    }
+
+    .partnerImg {
+        flex-direction: column;
+    }
+
+    .partnerImg figure:nth-of-type(1) img {
+        height: 36.61pt;
+    }
+
+    .partnerImg figure:nth-of-type(2) img {
+        height: 53.38pt;
+    }
+
+    .partnerImg figure:nth-of-type(3) img {
+        height: 62.59pt;
+    }
+
+    .partnerImg figure:nth-of-type(4) img {
+        display: none;
+    }
+
+    .dropdowns header {
+        color: #B2FF9E;
+        font-size: 36pt;
+        margin-top: 75pt;
+        margin-left: 156pt;
+        margin-bottom: 42pt;
+    }
+
+    .dropdowns .dropdown .btn {
+        font-size: 14pt;
+    }
+
+    .dropdowns .main {
+        background-position-y: 238px;
+        background-position-x: -77rem;
+    }
+
+
+    .readyToStart .content {
+        width: 90%;
+        padding-left: 44pt;
+
+    }
+
+    .readyToStart header {
+        font-size: 40pt;
+        font-weight: 700;
+        padding-top: 0;
+    }
+
+
+
+    .readyToStart p {
+        font-size: 22pt;
+    }
+
+    .readyToStart .move {
+        font-size: 20pt;
+        padding-top: 0;
+    }
+
+
+
+    .readyToStart .buttons .dashboard {
+        font-size: 40pt;
+        width: 279pt;
+        height: 71pt;
+        padding: 0;
+    }
+
+    .readyToStart .startNow {
+        font-size: 24pt;
+        width: 186pt;
+        height: 57pt;
+        padding: 0;
+    }
+
+    .readyToStart .contact {
+        font-size: 23pt;
+        width: 213pt;
+        height: 57pt;
+        padding: 0;
+
+    }
+
+    .readyToStart .contact svg {
+        width: 35.27pt;
+        height: 35pt;
+    }
+
+    .readyToStart .buttons {
+        background: url(files/group.svg);
+        background-position-y: 1000px;
+        background-position-x: -500px;
+        padding-left: 44pt;
+        margin-top: 0;
+
+    }
+
+    .footer div {
+        display: none;
+    }
+}
+
+@media (max-width:991px) {
+    .sell .mainContent {
+        margin-left: 0;
+    }
+
+    .sell .formMobile .btn {
+        left: 13rem;
+    }
+
+}
+
+@media (max-width:622px) {
+    nav .navbar-brand img {
+        height: 76pt;
+        width: 168pt;
+        margin: 0;
+    }
+
+    nav .dropdown a {
+        width: 30pt;
+        height: 23pt;
+        font-size: 1.6rem;
+    }
+
+    nav .dropdown {
+        margin-left: 0;
+    }
+
+    .step1 .stepsMobile {
+        margin-left: 43pt;
+    }
+
+    .whyChoose .numbered span {
+        margin-bottom: 8rem;
+    }
+
+    .whyChoose p {
+        margin-bottom: 3rem;
+    }
+
+    .readyToStart {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .readyToStart .buttons {
+        margin: 0;
+        margin-top: 60pt;
+    }
+
+    .readyToStart header span {
+        background-color: #1A1B32;
+        color: #E6CAFF;
+        padding: 0 1rem;
+    }
+}
